@@ -1,0 +1,99 @@
+body{
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+
+
+
+
+
+.heading{
+ 
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+ font-family: 'Nanum Gothic', sans-serif;
+ opacity: 0.8;
+  
+}
+
+.btndiv{
+  position: absolute;
+  top:15px;
+  left: 12px;
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+
+
+.imageContainer{
+  display: flex;
+  height: 450px;
+  
+}
+
+
+
+
+.st{
+  
+  flex: 10%;
+  
+}
+.nd{
+  
+  flex: 10%;
+  
+}
+.rd{
+ 
+  flex: 10%;
+}
+.th{
+  
+  flex: 10%;
+}
+
+.data{
+  position: relative;
+  font-size: 0.7rem;
+  color: #c16064;
+  bottom: 20vh;
+  font-family: 'Anton', sans-serif;
+ font-family: 'Nanum Gothic', sans-serif;
+
+}
+.data1{
+  position: relative;
+  bottom: 10vh;
+  right: 5px;
+  text-align-last: right;
+  font-family: 'Anton', sans-serif;
+ font-family: 'Nanum Gothic', sans-serif;
+ font-size: 0.7rem;
+  color: #c16064;
+
+}
+
+
+
+@media screen and (max-width:396px)
+{
+  .btndiv{
+  position: absolute;
+   top:13px;
+  left: 12px;
+  background-image: linear-gradient(to top, #a3bded 0%, #6991c7 100%);
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 0.9rem;
+  }
+}

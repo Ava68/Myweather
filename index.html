@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/CSS/styles.css" />
+
+</head>
+
+<body>
+    <div class="main-content">
+        <div class="headdiv">
+            <h1 class="heading"><u>Hi there </u></h1>
+            <h1 class="heading"> wanna know your city's weather just drop your city's name </h2>
+        </div>
+        <article class="widget">
+            <form class="weatherLocation" action="/" method="post">
+                <!-- <label for="cityInput">City name</label> -->
+                <input id="cityInput" type="text" name="cityName" placeholder="Enter the city name">
+                <button class="btn" type="submit" style="margin-left: 10px;"> Go</button>
+            </form>
+            <div class="weatherIcon"><i class="wi wi-day-cloudy"></i></div>
+
+            <div class="weatherInfo">
+                <div class="temperature"><span></span></div>
+                <div class="description">
+                    <div class="weatherCondition"></div>
+                    <div class="place"></div>
+                </div>
+            </div>
+            <div class="date"></div>
+
+    </div>
+    </article>
+    </div>
+
+    <script src="/js/index.js"></script>
+</body>
+
+</html>

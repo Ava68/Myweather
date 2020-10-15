@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/result.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/960cfa4c9a.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="heading">
+
+        <h1 style="font-size: 30px;">Hello </h1>
+        <p style="font-size:18px">Welcome to myweather</p>
+
+    </div>
+    <div class="btndiv">
+        <a href="/" class="btn"><i class="fa fa-home fa-3x "></i></a>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="imageContainer">
+        <div class="st">
+            <img class="img1" src="<%= image%>" alt="hi">
+        </div>
+
+        <div class="nd">
+            <img class="img2" src="<%= image%>" alt="hi">
+        </div>
+
+        <div class="rd">
+            <img class="img3" src="<%= image%>" alt="hi">
+        </div>
+
+        <div class="th">
+            <img class="img4" src="<%= image%>" alt="hi">
+        </div>
+
+    </div>
+
+
+    <div class="data">
+        <h1> <%=data%> in <%=city%></h1>
+        <h1>Temperature -<%=temp%> celcius</h1>
+
+    </div>
+
+    <div class="data1">
+
+        <h1>Humidity -<%=hum%></h1>
+        <h1>Wind speed is <%=wind%></h1>
+    </div>
+
+
+</body>
+
+</html>
+
+
+<!-- <h1> <%=data%></h1>
+<h1>temperature is <%=temp%></h1>
+<h1>humidity in your city <%=hum%></h1>
+<h1>wind speed is <%=wind%></h1>
+
+<img src="<%= image%>" alt="hi"> -->
